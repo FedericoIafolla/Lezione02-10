@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class Main {
     public static void main(String[] args) {
         // Creazione dei prodotti con le date
-        Product book1 = new Product(1L, "Il contre Draaaacula, minghia che pauuura", "Books", 120.0, LocalDate.of(2020, 12, 15));
+        Product book1 = new Product(1L, "Il conte Draaaacula, minghia che pauuura", "Books", 120.0, LocalDate.of(2020, 12, 15));
         Product book2 = new Product(2L, "Pdorrrr, figlio di Kmer", "Books", 105.0, LocalDate.of(2021, 1, 10));
         Product book3 = new Product(3L, "La Subaru Baracca", "Books", 50.0, LocalDate.of(2021, 2, 5));
         Product book4 = new Product(4L, "La Subaru Baracca 2: modello banana", "Baby", 80.0, LocalDate.of(2021, 2, 20));
